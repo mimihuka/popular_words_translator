@@ -1,7 +1,7 @@
 // kw = ['奥利给','耗子尾汁','黑人抬棺','迷hotel','闹太套','6'];
 var kw = [];
 var jsonwords = {};
-fetch('../words/words.json')
+fetch('https://leosut.github.io/pwtrans/words/words.json')
   .then(response => response.json())
   .then(data => {
     var keys = Object.keys(data);

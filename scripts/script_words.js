@@ -9,7 +9,7 @@ let content = document.querySelector("#content");
 
 //读取json内容
 var jsonData;
-fetch('../words/words.json')
+fetch('https://leosut.github.io/pwtrans/words/words.json')
   .then(response => response.json())
   .then(data => {
     jsonData = data;
