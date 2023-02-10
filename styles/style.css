@@ -78,6 +78,7 @@ button:hover {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.13), 0 17px 25px 0 rgba(0, 0, 0, 0.05);
     transform: translateY(-0.6px);
 }
+
 .buttons {
     display: flex;
     flex-grow: 1;

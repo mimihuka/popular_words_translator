@@ -13,7 +13,7 @@ fetch('https://leosut.github.io/pwtrans/words/words.json')
 
 function translateSent(sentence, wordlist) {
   for (var j = 0; j < Object.keys(wordlist).length; j++) {
-    sentence=sentence.replace(RegExp(Object.keys(wordlist)[j], 'gi'),wordlist[Object.keys(wordlist)[j]]);
+    sentence = sentence.replace(RegExp(Object.keys(wordlist)[j], 'gi'), wordlist[Object.keys(wordlist)[j]]);
   }
   document.querySelector('input').value = sentence;
 }
