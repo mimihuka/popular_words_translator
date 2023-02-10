@@ -18,21 +18,26 @@
     </div>
     <div class="search">
         <input type="text" placeholder="查找词汇...">
-        <button onclick="fuzzyQuery(kw,document.querySelector('input').value)"><span>进入</span></button>
+        <div class="buttons">
+            <button onclick="fuzzyQuery(kw,document.querySelector('input').value)" class="jumpin"><span>进入</span>
+            </button>
+            <button onclick="translateSent(document.querySelector('input').value, jsonwords.replacement)" class="translate"><span>翻译</span></button>
+
+        </div>
     </div>
     <h3 class="title2">相关推荐</h3>
     <div class="third">
         <a href="words/?word=奥利给" class="recom" id="1">
             <h2 class="title">奥利给</h2>
-            <p class="content">该梗早在2018年就已出现，是"给力奥"倒过来的说法。后来一位自称“冬泳怪鸽”的人说了后大火，广为人知。他擅长冬...</p>
+            <p class="content">该梗早在2018年就已出现，是"给力奥"倒过来的说法。后来一位自称「冬泳怪鸽」的人在视频中频繁使用，且说话的语气充满激情，加上本人热度较高...</p>
         </a>
-        <a href="words/?word=耗子尾汁" class="recom" id="1">
-            <h2 class="title">耗子尾汁</h2>
-            <p class="content">该梗出自于一位自称是“混元功法”的掌门人，叫马保国，而这个成语是他在被两个年轻人打了以后发到微博上的视频里所说的...</p>
+        <a href="words/?word=旋转鸡块" class="recom" id="1">
+            <h2 class="title">旋转鸡块</h2>
+            <p class="content">该梗出自于一段视频，白色背景下一个鸡块浮在空中旋转，配上音乐《Funky town》，让人看了就被吸引住，停不下来。后被大量模仿，创作出了「...</p>
         </a>
-        <a href="words/?word=黑人抬棺" class="recom" id="1">
-            <h2 class="title">黑人抬棺</h2>
-            <p class="content">该梗出自于一段加纳送葬仪式的视频，此视频流传后被网友们配上了“astronomia”这首魔性dj，之后就广为流传了起来，并被制作...</p>
+        <a href="words/?word=九转大肠" class="recom" id="1">
+            <h2 class="title">九转大肠</h2>
+            <p class="content">该词出自于《顶级厨师》节目，在压力测试环节中，选手被要求在90分钟内制作出「九转大肠」这道菜品。而选手俞涛在清洗大肠的过程中（按照评委的...</p>
         </a>
     </div>
 </body>

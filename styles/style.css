@@ -23,7 +23,7 @@ body {
 
 .search {
     display: flex;
-    height: 42px;
+    height: 95px;
     flex-direction: row;
     flex-grow: 1;
     /* justify-content: space-around; */
@@ -36,7 +36,7 @@ input {
     flex-grow: 9;
     flex-shrink: 1;
     margin: 0px 10px 0px 20px;
-    border-radius: 42px;
+    border-radius: 20px;
     border: 2px solid #324B4E;
     background: #fff8e8;
     transition: .3s linear;
@@ -51,16 +51,22 @@ input:hover {
 
 button {
     display: flex;
-    flex-grow: 1;
+    flex-grow: 0;
+    height: 42px;
     flex-shrink: 0;
     margin: 0px 20px 0px 10px;
     border-radius: 13px;
-    border: 2px solid #324B4E;
+    border: 2px solid #4b4933;
     background: #f9f0da;
     transition: .3s linear;
     /* padding: 15px; */
     text-align: center;
     font-size: 85%;
+}
+
+button.jumpin {
+    background-color: #4b4933;
+    color: #fff8e8;
 }
 
 span {
@@ -69,8 +75,14 @@ span {
 }
 
 button:hover {
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.10), 0 17px 25px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.13), 0 17px 25px 0 rgba(0, 0, 0, 0.05);
     transform: translateY(-0.6px);
+}
+.buttons {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .title2 {
