@@ -110,7 +110,7 @@ button:hover {
     color: rgb(72, 72, 72);
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 340px;
+    flex-basis: 320px;
     background-color: rgb(255, 252, 228);
     border: 1px solid lightgray;
     border-radius: 20px;
